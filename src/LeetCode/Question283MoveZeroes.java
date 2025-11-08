@@ -2,12 +2,12 @@ package LeetCode;
 
 public class Question283MoveZeroes {
     public static void main(String[] args) {
-        Problem1 solution = new Problem1();
+        Solution1 solution = new Solution1();
 
         int[] nums = {0, 1, 0, 3, 12};
 //        int[] nums = {0};
 
-        //solution.moveZeroes(nums);
+        solution.moveZeroes(nums);
 
         System.out.print("Array after moving zeroes: ");
         for (int num : nums) {
