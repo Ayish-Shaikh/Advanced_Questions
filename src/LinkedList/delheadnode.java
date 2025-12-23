@@ -37,14 +37,14 @@ class DoublyLinkedList {
 
     // Insert at head (helper method)
     void insertAtHead(int data) {
-        Node newNode = new Node(data);
+        Node newNode11 = new Node(data);
 
         if (head != null) {
-            newNode.next = head;
-            head.prev = newNode;
+            newNode11.next = head;
+            head.prev = newNode11;
         }
 
-        head = newNode;
+        head = newNode11;
     }
 
     // Display list
