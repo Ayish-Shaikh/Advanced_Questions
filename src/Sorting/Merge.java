@@ -2,7 +2,6 @@ package Sorting;
 
 public class Merge {
     public static void MergeSort(int[] arr, int low , int high){
-        int n = arr.length;
         if (low < high) {
             int mid = (low + high) / 2;
             MergeSort(arr , low , mid);
