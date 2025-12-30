@@ -19,7 +19,17 @@ public class TraversalInSLL {
             temp = temp.next;
         }
 
-        System.out.print("null");
+        System.out.println("null");
+    }
+    private static int lengthofLL(Node head){
+
+        int count = 0;
+        Node temp = head;
+        while (temp != null) {
+            temp = temp.next;
+            count++;
+        }
+        return count;
     }
 
     public static void main(String[] args) {
@@ -32,5 +42,7 @@ public class TraversalInSLL {
         head.next.next.next.next.next = new Node(3);
 
         traverse(head);
+
+        System.out.println(lengthofLL(head));
     }
 }
