@@ -1,6 +1,6 @@
-package LinkedList;
+package LinkedList.SinglyLinkedListRevision;
 
-public class SearchInSLL {
+public class TraversalInSLL {
     public static class Node {
         int data;
         Node next;
@@ -10,19 +10,30 @@ public class SearchInSLL {
             this.next = next;
         }
     }
-    public static boolean Search(Node head, int val) {
+
+    public static void traverse(Node head) {
         Node temp = head;
 
         while (temp != null) {
-            if (temp.data == val){
-                return true;
-            }
+            System.out.print(temp.data + " -> ");
             temp = temp.next;
         }
-        return false;
+
+        System.out.println("null");
+    }
+    private static int lengthofLL(Node head){
+
+        int count = 0;
+        Node temp = head;
+        while (temp != null) {
+            temp = temp.next;
+            count++;
+        }
+        return count;
     }
 
     public static void main(String[] args) {
+
         Node head = new Node(2);
         head.next = new Node(5);
         head.next.next = new Node(7);
@@ -30,13 +41,8 @@ public class SearchInSLL {
         head.next.next.next.next = new Node(1);
         head.next.next.next.next.next = new Node(3);
 
-        int val = 1;
+        traverse(head);
 
-        if (Search(head, val)){
-            System.out.println("Element Found :) " );
-        }
-        else {
-            System.out.println("Element Not Found :( ");
-        }
+        System.out.println(lengthofLL(head));
     }
 }

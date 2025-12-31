@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.SinglyLinkedListRevision;
 
 public class SinglyLinkedListDemo {
     public static class Node{
