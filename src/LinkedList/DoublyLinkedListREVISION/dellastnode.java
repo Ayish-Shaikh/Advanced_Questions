@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.DoublyLinkedListREVISION;
 
 class Node1 {
     int data;
