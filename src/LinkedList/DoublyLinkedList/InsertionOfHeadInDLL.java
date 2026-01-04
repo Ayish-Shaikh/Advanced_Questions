@@ -51,12 +51,12 @@ public class InsertionOfHeadInDLL {
         int[] arr = {2, 4, 3, 9, 16, 1, 17};
 
         Node head = convertArr2DLL(arr);
-        System.out.println("Before Deleting any node  : ");
+        System.out.println("Before Inserting Before the head  : ");
         traverse(head);
 
         head = InsertBeforeHead(head, 5);
 
-        System.out.println("After Deleting any node : ");
+        System.out.println("After Inserting Before the head : ");
         traverse(head);
     }
     }
