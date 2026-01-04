@@ -107,12 +107,12 @@ public class DeletionOfKthInDLL {
         int[] arr = {2, 4, 3, 9, 16, 1, 17};
 
         Node head = convertArr2DLL(arr);
-        System.out.println("Before Deleting tail : ");
+        System.out.println("Before Deleting kth element : ");
         traverse(head);
 
         head = DeleteKthElement(head,4);
 
-        System.out.println("After Deleting tail : ");
+        System.out.println("After Deleting kth element : ");
         traverse(head);
     }
 }
