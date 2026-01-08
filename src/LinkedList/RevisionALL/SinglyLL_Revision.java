@@ -101,7 +101,26 @@ public class SinglyLL_Revision {
     }
 
     //insert at kth
-
+    public static Node insertkth(Node head, int data, int k){
+        if (k == 1) {
+            Node newNode = new Node(data);
+            newNode.next = head;
+            return newNode;
+        }
+        Node temp = head;
+        int count = 0;
+        while (temp != null) {
+            count++;
+            if (count == k - 1) {
+                Node node = new Node(data);
+                node.next = temp.next;
+                temp.next = node;
+                return head;
+            }
+            temp = temp.next;
+        }
+        return head;
+    }
 
     //MAIN
     public static void main(String[] args) {
@@ -155,6 +174,11 @@ public class SinglyLL_Revision {
         head = insertTail(head, 3);
         traverse(head);
 
+        System.out.println("BEFORE INSERTING AT KTH: ");
+        traverse(head);
 
+        System.out.println("AFTER INSERTING AT KTH: ");
+        head = insertkth(head, 4, 2);
+        traverse(head);
     }
 }
