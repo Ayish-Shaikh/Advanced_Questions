@@ -1,12 +1,13 @@
-# 📘 Data Structures & Algorithms in Java
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+📘 Data Structures & Algorithms in Java
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 A well-organized collection of **Data Structures and Algorithms (DSA)** problems solved using **Java**.  
 This repository contains solutions from popular coding platforms and core CS topics, aimed at strengthening problem-solving skills and preparing for technical interviews.
 
 ---
-
-## 👨‍💻 Author
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+👨‍💻 Author
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Ayish Shaikh**  
 🎓 B.Tech CSE | Swami Vivekananda University  
 💻 Aspiring Software Developer | Java & DSA Enthusiast  
@@ -16,9 +17,9 @@ This repository contains solutions from popular coding platforms and core CS top
 - 📧 Email: ayishshaikh.8805@gmail.com
 
 ---
-
-## 📂 Repository Structure
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 📂 Repository Structure
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```text
 ├── Code_Chef
 │   └── DSA problems solved using Java
@@ -47,9 +48,9 @@ This repository contains solutions from popular coding platforms and core CS top
 ├── Sorting
 │   └── Sorting algorithms (Quick Sort, Merge Sort, Bubble Sort)
 ```
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Topics Covered
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✅ Arrays & Strings
 
 ✅ Linked Lists
@@ -63,9 +64,9 @@ This repository contains solutions from popular coding platforms and core CS top
 ✅ Multithreading in Java
 
 ✅ Competitive Programming Problems
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Tech Stack
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Language: Java
 
 Tools: IntelliJ IDEA, Git, GitHub
@@ -92,14 +93,14 @@ Add more advanced DSA problems
 
 Include test cases
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⭐ How to Use
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Clone the repository
 ```text
 git clone https://github.com/Ayish-Shaikh/<repo-name>.git
 ```
 Open in IntelliJ IDEA or any Java IDE
-
 
 Run and explore individual problems
 
