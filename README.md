@@ -46,6 +46,7 @@ This repository contains solutions from popular coding platforms and core CS top
 │
 ├── Sorting
 │   └── Sorting algorithms (Quick Sort, Merge Sort, Bubble Sort)
+```
 
 🚀 Topics Covered
 
@@ -94,7 +95,9 @@ Include test cases
 ⭐ How to Use
 
 Clone the repository
+```text
 git clone https://github.com/Ayish-Shaikh/<repo-name>.git
+```
 Open in IntelliJ IDEA or any Java IDE
 
 
@@ -108,14 +111,6 @@ This is a personal learning repository, but suggestions and improvements are alw
 ⭐ If you find this repository helpful, don’t forget to star it!
 
 ---
-
-If you want:
-- a **more fancy README with badges**
-- a **minimal README**
-- or a **resume-oriented README**
-
-just tell me 👍
-
 
 
 
