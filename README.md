@@ -98,7 +98,7 @@ Include test cases
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Clone the repository
 ```text
-git clone https://github.com/Ayish-Shaikh/<repo-name>.git
+git clone https://github.com/Ayish-Shaikh/<Advanced_Questions>.git
 ```
 Open in IntelliJ IDEA or any Java IDE
 
