@@ -2,7 +2,7 @@ package Recursion_Github;
 
 public class PalindromeNumberRecursion {
     public static void main(String[] args) {
-        String test = "kppappk";
+        String test = "abbcbba";
         boolean result = printNo(test, 0, test.length()-1);
         if (result) {
             System.out.println("String: " + test);
