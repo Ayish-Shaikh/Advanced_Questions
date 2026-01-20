@@ -2,7 +2,7 @@ package Recursion_Github;
 
 public class SumOfDigitsRecursion {
     public static void main(String[] args) {
-        int a = 531;
+        int a = 4368;
         int result = sumofDigits(a);
         System.out.println(result);
     }
