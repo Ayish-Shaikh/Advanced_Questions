@@ -2,10 +2,10 @@ package Recursion_Github;
 
 public class RopeCuttingRecursion {
     public static void main(String[] args) {
-        int rope = 6;
-        int a = 5;
-        int b = 2;
-        int c = 1;
+        int rope = 23;
+        int a = 15;
+        int b = 12;
+        int c = 11;
         int maxpieces = ropecut(rope, a, b, c);
         if (maxpieces != -1) {
             System.out.println("Maximum pieces possible: " + maxpieces);
