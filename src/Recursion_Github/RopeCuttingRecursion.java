@@ -2,7 +2,7 @@ package Recursion_Github;
 
 public class RopeCuttingRecursion {
     public static void main(String[] args) {
-        int rope = 23;
+        int rope = 42;
         int a = 15;
         int b = 12;
         int c = 11;
