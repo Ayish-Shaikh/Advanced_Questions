@@ -2,7 +2,7 @@ package Recursion_Github;
 
 public class subset {
     public static void main(String[] args) {
-        String v = "ABC";
+        String v = "XYZ";
         subset(v,"",0);
     }
     public static void subset(String str, String r, int counter){
