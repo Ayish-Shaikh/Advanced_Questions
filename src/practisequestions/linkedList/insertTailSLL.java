@@ -44,7 +44,7 @@ public class insertTailSLL {
         traverse(head);
 
         System.out.println("After inserting head: ");
-        head = insertTail(head,8);
+        head = insertTail(head,10);
         traverse(head);
     }
 }
