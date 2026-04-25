@@ -1,12 +1,12 @@
 package practisequestions.linkedList;
 
-public class insertHeadDLL {
+public class insertTailDLL {
     public static class Node{
         int data;
         Node prev;
         Node next;
 
-        Node(int data){
+        public Node(int data){
             this.data = data;
             this.prev = null;
             this.next = null;
@@ -18,7 +18,7 @@ public class insertHeadDLL {
 
         while (temp != null) {
             System.out.print(temp.data + " <-> ");
-            temp = temp.next;
+            temp=temp.next;
         }
         System.out.println("null");
     }
@@ -40,19 +40,37 @@ public class insertHeadDLL {
         return head;
     }
 
-    public static Node insertbeforeheadDLL(Node head, int var){
-        Node temp = new Node(var);
-        head.prev = temp;
-        temp.next = head;
-        return temp;
+    public static Node insertbeforeheadDLL(Node head, int val){
+        Node newHead = new Node(val);
+        head.prev = newHead;
+        newHead.next = head;
+
+        return newHead;
     }
 
+    public static Node insertbeforeTail(Node head, int var){
+        Node tail = head;
+
+        while (tail.next != null) {
+            tail = tail.next;
+        }
+        Node prev = tail.prev;
+        Node newNode = new Node(var);
+
+        prev.next = newNode;
+        newNode.prev = prev;
+
+        newNode.next = tail;
+        tail.prev = newNode;
+
+        return head;
+    }
     public static void main(String[] args) {
         int[] arr = {2, 3, 4, 5};
 
         Node head = convertarr2dll(arr);
 
-        head = insertbeforeheadDLL(head, 1);
+        head = insertbeforeTail(head, 6);
         traverse(head);
     }
 }
